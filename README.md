@@ -1,6 +1,18 @@
 ## Description
 
-clean arquitecture
+🧩 Overview
+
+Built with NestJS, leveraging a modular and domain-oriented architecture with dependency injection to ensure scalability, maintainability, and testability.
+
+Data persistence is handled using PostgreSQL and Prisma ORM, with a well-defined relational schema and versioned migrations. The application is ready to run on modern Node.js environments and can be deployed on free-tier hosting services.
+
+🛠️ Tech Stack
+Backend: NestJS (TypeScript)
+Architecture: Modular, domain-driven, dependency injection
+Database: PostgreSQL
+ORM: Prisma
+Language: TypeScript
+Runtime: Node.js
 
 ## Project setup
 
@@ -11,6 +23,7 @@ $ npm install
 ## Database Setup with Prisma
 
 1. Ensure your database is running and the `DATABASE_URL` environment variable is set in a `.env` file.
+In production create a .env.production file.
 
 2. Generate the Prisma client:
 
