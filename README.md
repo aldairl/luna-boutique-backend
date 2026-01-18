@@ -95,3 +95,22 @@ $ npm run prisma:studio
 ```
 
 Prisma Studio will open in your browser at `http://localhost:5555`.
+
+## Load a seed
+
+To load a user test run migrates
+
+`bash
+npm run prisma:migrate
+`
+
+push prisma
+
+`bash
+npm run prisma:push
+`
+
+run command seed
+`bash
+npx prisma db seed
+`
